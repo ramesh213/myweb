@@ -30,7 +30,7 @@ const LeftBanner = () => {
   });
 
   return (
-    <div className="w-1/2 flex flex-col gap-10">
+    <div className="w-1/2 flex flex-col gap-10 ml-20">
       <div className="flex flex-col gap-3">
         <h1 className="text-3xl font-bold text-white">Hi, It's me </h1>
         <h1 className="text-designColor text-6xl font-bold capitalize">
@@ -55,7 +55,7 @@ const LeftBanner = () => {
       <div className="flex justify-between">
         <div>
           <h2 className="text-base uppercase mb-4 font-titleFont">
-            Get in touch:
+            Get in touch
           </h2>
           <div className="flex gap-4">
             <span className="banner-icon">
@@ -72,6 +72,7 @@ const LeftBanner = () => {
             </span>
           </div>
         </div>
+        {/* skill icons */}
         <div>
           <h2 className="text-base uppercase mb-4 font-titleFont">
             BEST SKILLED IN
