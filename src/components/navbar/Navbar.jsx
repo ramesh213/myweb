@@ -1,23 +1,11 @@
 import React, { useState } from "react";
 import logo from "../../assets/images/logo.png";
 import { navLinkData } from "../../constants";
-import { Link } from "react-scroll";
-
+import { Link, animateScroll as scroll } from "react-scroll";
 const Navbar = () => {
 
-// const [fixNav, setFixNav] = useState(false);
-
-// // addEventListener for navbar
-// window.addEventListener("scroll", () => { 
-//   if(window.scrollY > 200) {
-//     setFixNav(true)
-//   } else {
-//     setFixNav(false)
-//   }
-// })
-
   return (
-    <div id="home"className="w-full mx-auto h-20 flex justify-between items-center shadow">
+    <div className="w-full mx-auto h-20 sticky top-0 z-50 bg-bodyColor flex justify-between items-center shadow">
         <div className="ml-20">
           <img src={logo} alt="logo" />
         </div>
