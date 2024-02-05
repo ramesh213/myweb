@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import logo from "../../assets/images/logo.png";
+import React from "react";
+import { logo } from "../../index"
 import { navLinkData } from "../../constants";
 import { Link, animateScroll as scroll } from "react-scroll";
 const Navbar = () => {
