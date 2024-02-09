@@ -1,15 +1,15 @@
 import logo from "./assets/images/logo.png";
 import bannerImg from "./assets/images/bannerImg.png";
-import projectOne from "./assets/images/projectOne.jpg";
-import projectTwo from "./assets/images/projectTwo.jpg";
-import projectThree from "./assets/images/projectThree.jpeg";
+import weather from "./assets/images/weather.jpg";
+import shopping from "./assets/images/shopping.png";
+import more_projects from "./assets/images/more_projects.jpeg";
 // import contactImg from "./images/contactImg.png"
 
 export  {
   logo,
   bannerImg,
-  projectOne,
-  projectTwo,
-  projectThree,
+  weather,
+  shopping,
+  more_projects,
   // contactImg
 };

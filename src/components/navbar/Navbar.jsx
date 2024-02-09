@@ -3,7 +3,7 @@ import { logo } from "../../index"
 import { navLinkData } from "../../constants";
 import { Link, animateScroll as scroll } from "react-scroll";
 const Navbar = () => {
-
+  // sticky top-0 z-50
   return (
     <div className="w-full mx-auto h-20 sticky top-0 z-50 bg-bodyColor flex justify-between items-center shadow">
         <div className="ml-20">
