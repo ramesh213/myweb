@@ -28,7 +28,7 @@ const Projects = () => {
         />
         <ProjectCards
         title = "More Projects..."
-        desc = "More projects on the way"
+        desc = "More projects on the way.."
         sub_desc = "Build Status: Under development !!!"
         img = {more_projects}
         />
