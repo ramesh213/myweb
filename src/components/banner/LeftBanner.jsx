@@ -2,14 +2,12 @@ import React from "react";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import {
   FaFacebookF,
-  FaGithub,
   FaInstagram,
   FaLinkedinIn,
   FaTwitter,
 } from "react-icons/fa";
 import {
   SiTailwindcss,
-  SiFigma,
   SiNextdotjs,
   SiReact,
   SiDjango,

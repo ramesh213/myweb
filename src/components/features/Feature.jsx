@@ -11,7 +11,7 @@ const Feature = () => {
   return (
     <section
       id="features"
-      className="w-full px-20 py-20 item-center border-b-[1px] border-b-[black]"
+      className="w-full px-20 pt-10 pb-20 item-center border-b-[1px] border-b-[black]"
     > 
         <div className="flex justify-center text-center">
         <Title title="Features" desc="Things I Do" />

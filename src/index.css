@@ -10,9 +10,15 @@
     .banner-icon {
         @apply w-12 h-12  text-gray-200 text-xl inline-flex items-center justify-center rounded-md shadow-shadowOne hover:bg-opacity-40 hover:-translate-y-1 transition-all hover:text-designColor cursor-pointer duration-300; 
     }
+
+    .resumeLi {
+        @apply w-[98%] h-[60px] bg-black bg-opacity-25 text-gray-400  flex justify-center items-center text-xl mx-1 font-bold cursor-pointer hover:text-yellow-700 duration-100 border-[1px];
+     }
+   
 }
 
+
 .active {
-    color: white;
+    color: peru;
     font: bold;
 }
