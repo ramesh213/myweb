@@ -12,11 +12,11 @@ const Experience = () => {
   >
     <div className="w-1/2">
       <div className="py-6 font-titleFont">
-        <h2 className="text-xl font-bold">Graduation</h2>
+        <h2 className="text-xl font-bold">Frontend Experience</h2>
       </div>
       <div className="w-full h-[600px] flex  gap-10 border-opacity-30">
         <ResumeCard
-          degree="BCA"
+          degree="Frontend Development"
           duration="2017-2021"
           gpa="CGPA: 3.2"
           college="Purbanchal University"
@@ -27,11 +27,11 @@ const Experience = () => {
     </div>
     <div className="w-1/2">
       <div className="py-6 font-titleFont">
-        <h2 className="text-xl font-bold"> Post Graduation</h2>
+        <h2 className="text-xl font-bold">Backend Experience</h2>
       </div>
       <div className="w-full h-[600px] flex  gap-10 border-opacity-30">
         <ResumeCard
-          degree="MSc. IT"
+          degree="Backend Development"
           duration="2024-Running"
           gpa="CGPA: -"
           college="Tribhuwan University"

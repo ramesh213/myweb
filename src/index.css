@@ -17,7 +17,9 @@
    
 }
 
-
+.bgOpacity {
+    @apply bg-black bg-opacity-40;
+}
 .active {
     color: peru;
     font: bold;
