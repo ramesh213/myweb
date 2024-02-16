@@ -6,6 +6,7 @@ import Experience from './Experience'
 
 const Resume = () => {
 
+    //declaring states for toggle resume menu
     const [educationData, setEducationData] = useState(false)
     const [skillData, setSkillData ] = useState(true)
     const [experienceData, setExperienceData ] = useState(false)
@@ -17,6 +18,7 @@ const Resume = () => {
         desc = "My Resume"
         />
         </div>
+        {/* Designing Education, Skill & Experience under ul and li */}
         <div>
             <ul className='w-full grid grid-cols-3'>
                 <li className={`${educationData ? "border-gray-600 border-[3px] active": "border-transparent"} resumeLi rounded-l-md`} onClick={() => setEducationData(true) & setSkillData(false) & setExperienceData(false)}>Education</li>
@@ -26,7 +28,7 @@ const Resume = () => {
                 <li className={`${experienceData ? "border-gray-600 border-[3px] active": "border-transparent"} resumeLi rounded-r-md`} onClick={()=> setEducationData(false) & setSkillData(false) & setExperienceData(true)}>Experience</li>
             </ul>
         </div>
-        
+        {/* Displaying Education, Skill, Experience based on condition if available on click */}
         {educationData && <Education/>}
         {skillData && <Skill/>}
         {experienceData && <Experience/>}
