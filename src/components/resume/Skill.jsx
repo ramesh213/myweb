@@ -9,7 +9,6 @@ const Skill = () => {
         </div>
         <div className="w-full flex flex-col gap-4">
           <div>
-          {/* initial = {{x:"-100%", opacity: 0}} animation = {{x: 0, opacity: 1 }} transition={{duration: 0.5, delay: 0.5}} */}
             <h2 className="text-sm uppercase font-medium">HTML 5</h2>
             <span className="w-full h-2 bgOpacity inline-flex"> <span className="w-[99%] h-full bg-gradient-to-r from-gray-300 via bg-orange-400 to-red-400 relative"><span className="absolute -top-6 right-0">99%</span></span></span>
           </div>

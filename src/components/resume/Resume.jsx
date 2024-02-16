@@ -26,10 +26,6 @@ const Resume = () => {
                 <li className={`${experienceData ? "border-gray-600 border-[3px] active": "border-transparent"} resumeLi rounded-r-md`} onClick={()=> setEducationData(false) & setSkillData(false) & setExperienceData(true)}>Experience</li>
             </ul>
         </div>
-        {/* <div className="py-6 font-titleFont">
-            <h2 className="text-2xl font-bold">Academic Details</h2>
-        </div> */}
-        {/* flex-col w-1/2 border-l-[6px] border-l-black */}
         
         {educationData && <Education/>}
         {skillData && <Skill/>}
