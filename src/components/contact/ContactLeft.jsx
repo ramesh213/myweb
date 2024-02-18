@@ -15,7 +15,7 @@ const ContactLeft = () => {
       <p className="text-lg mb-3 text-gray-400">Full Stack Developer</p>
       <p className="text-md font-normal text-gray-400">Hey there, If you wish to discuss something more about your curiosity, feel free to contact me. Thanks !!!</p>
     </div>
-    <div className="mb-3">
+    <div className="mb-5">
       <h2>FIND ME IN :</h2>
     </div>
     <div className="flex flex-row gap-6">

@@ -11,7 +11,7 @@ const Resume = () => {
     const [skillData, setSkillData ] = useState(true)
     const [experienceData, setExperienceData ] = useState(false)
   return (
-    <section id='resume' className="w-full h-[700px] px-20 pt-10 pb-20 item-center border-b-[1px] border-b-[black]">
+    <section id='resume' className="w-full h-[700px] px-20 pt-10 pb-10 item-center border-b-[1px] border-b-[black]">
         <div className="flex justify-center text-center items-center">
         <Title
         title="Visit my profile" 
