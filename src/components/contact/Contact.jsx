@@ -34,7 +34,7 @@ const Contact = () => {
     } else if (message === "") {
       setErrorMsg("Please write some message !!!");
     } else {
-      setSuccess("Message sent successfully !");
+      setSuccess(`Thank You ${userName} for messaging, Admin will get back to you!`);
       setUserName("");
       SetMobile("");
       setEmail("");
@@ -51,7 +51,7 @@ const Contact = () => {
     if(success) {
       const timer  = setTimeout(() => {
         setSuccess('');
-      },3000);
+      },5000);
       return () => clearTimeout(timer);
     }
   }, [success]);
